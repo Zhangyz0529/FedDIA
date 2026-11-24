@@ -1,6 +1,11 @@
 cff-version: 1.2.0
-message: "Author metadata and final paper citation must be completed before release."
+message: "This repository contains the research code for FedDIA. The associated paper is currently under review. If you use this code, please cite this repository for now."
 title: "FedDIA research artifacts"
 type: software
-version: "0.1.0-release-candidate"
-# Add verified authors, repository-code and DOI before publication.
+version: "0.1.0"
+authors:
+  - family-names: "Zhang"
+    given-names: "Yize"
+    orcid: "https://orcid.org/0009-0000-5219-698X"
+repository-code: "https://github.com/Zhangyz0529/FedDIA"
+# license: MIT  # 如果你刚才在仓库里添加了 MIT License，请删掉这行前面的 # 号

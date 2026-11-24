@@ -1,0 +1,9 @@
+# Dependency names only, not a tested lockfile; see archived environment.json.
+numpy
+pandas
+scikit-learn
+scipy
+torch
+matplotlib
+Pillow
+tqdm

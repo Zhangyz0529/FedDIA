@@ -1,2 +1,34 @@
-# FedDIA
-Research code and supporting results for federated continual intrusion detection.
+# FedDIA — 精简公开候选版
+
+这是2026-11-24整理的研究公开候选包，保留核心实现、正式逐seed结果、选参和适配依据、五张选用图及其输入。详细文件与用途见`PUBLIC_FILES.csv`。
+
+## 目录
+
+- 根目录Python与`data_pipeline/`：核心实现及数据处理。
+- `supplementary_data/`：按原实验批次保留证据路径，避免修改源码和证据绑定；已经删去重复源码快照、过程报告与旧版图。
+- `docs/`：公开步骤、数据获取与授权状态。
+- `tools/verify_release.py`：本包完整性校验。
+
+## 可直接验收
+
+```sh
+pip install -r requirements-figures.txt
+python tools/verify_release.py
+python plot_selected_policy_20261121.py
+```
+
+先校验，再绘图。绘图重建PDF/SVG/PNG，会覆盖本包同名输出，之后哈希可能因图片生成时间元数据变化。
+
+当前预算图使用Re-Fed实际执行复用的10/6/6，不再展示旧理论复用点。其余M0/M4/M5/FedCLASS保留已记录选择。统计为三个种子的均值与样本标准差。
+
+## 复现范围
+
+已可由冻结逐seed输入重建最新预算图；其余四图提供成图与数据，未在本精简包中验证自动重建。所有训练仍依赖未打包的处理后数据、部分历史manifest目录与第三方代码；不是开箱即用的完整训练包。`${WORKSPACE_ROOT}`等历史路径占位符需要配置，依赖列表不是已验收的训练锁定环境。
+
+Protocol A的继承双输入配对限制仍需披露；B/C不能认证其同包配对。外部方法为统一流量表示下的适配比较。通信为序列化消息字节，非真实网络线速测量。
+
+作者、最终论文信息、自有代码许可证、第三方归属和数据永久访问链接待补。完整训练/权重/逐样本预测未装入。历史官方来源哈希描述原档案，不代表第三方源码已包含在本包中。
+
+## 图版本
+
+五图索引及解释见`docs/FIGURES.md`；Protocol C源域图保留原分析范围，新连接实验的四人口结果应读bridge/protocolC表，不能认为旧图已经增加全部新方法。

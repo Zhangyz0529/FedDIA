@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "Author metadata and final paper citation must be completed before release."
+title: "FedDIA research artifacts"
+type: software
+version: "0.1.0-release-candidate"
+# Add verified authors, repository-code and DOI before publication.

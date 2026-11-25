@@ -1,0 +1,182 @@
+{
+  "CIC_IDS_FedCLASS": {
+    "id": "CIC_IDS_FedCLASS_cfg3_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "FedCLASS",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.01,
+      "alpha": 1.0,
+      "T_old": 5.0,
+      "T_new": 3.0
+    }
+  },
+  "CIC_IDS_ReFed": {
+    "id": "CIC_IDS_ReFed_cfg2_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "ReFed",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  },
+  "CIC_IDS_AFFCL": {
+    "id": "CIC_IDS_AFFCL_cfg2_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "AFFCL",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001,
+      "flow_lr": 0.001,
+      "flow_weight": 1.0,
+      "flow_hidden": 512,
+      "flow_layers": 4,
+      "flow_history_weight": 0.4,
+      "feature_kd": 0.1,
+      "output_kd": 0.1,
+      "teacher_last": 1.0,
+      "teacher_global": 1.0,
+      "explore_theta": 0.2
+    }
+  },
+  "USTC_FedCLASS": {
+    "id": "USTC_FedCLASS_cfg3_5-5-5_s42",
+    "dataset": "USTC",
+    "arm": "FedCLASS",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.01,
+      "alpha": 1.0,
+      "T_old": 5.0,
+      "T_new": 3.0
+    }
+  },
+  "USTC_ReFed": {
+    "id": "USTC_ReFed_cfg2_5-5-5_s42",
+    "dataset": "USTC",
+    "arm": "ReFed",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  },
+  "USTC_AFFCL": {
+    "id": "USTC_AFFCL_cfg2_5-5-5_s42",
+    "dataset": "USTC",
+    "arm": "AFFCL",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001,
+      "flow_lr": 0.001,
+      "flow_weight": 1.0,
+      "flow_hidden": 512,
+      "flow_layers": 4,
+      "flow_history_weight": 0.4,
+      "feature_kd": 0.1,
+      "output_kd": 0.1,
+      "teacher_last": 1.0,
+      "teacher_global": 1.0,
+      "explore_theta": 0.2
+    }
+  },
+  "CIC_DOH_FedCLASS": {
+    "id": "CIC_DOH_FedCLASS_cfg3_5-5-5_s42",
+    "dataset": "CIC_DOH",
+    "arm": "FedCLASS",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.01,
+      "alpha": 1.0,
+      "T_old": 5.0,
+      "T_new": 3.0
+    }
+  },
+  "CIC_DOH_ReFed": {
+    "id": "CIC_DOH_ReFed_cfg1_5-5-5_s42",
+    "dataset": "CIC_DOH",
+    "arm": "ReFed",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.5,
+      "pim_epochs": 3
+    }
+  },
+  "CIC_DOH_AFFCL": {
+    "id": "CIC_DOH_AFFCL_cfg1_5-5-5_s42",
+    "dataset": "CIC_DOH",
+    "arm": "AFFCL",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "parameter_candidate",
+    "config": {
+      "lr": 0.001,
+      "flow_lr": 0.001,
+      "flow_weight": 0.1,
+      "flow_hidden": 512,
+      "flow_layers": 4,
+      "flow_history_weight": 0.4,
+      "feature_kd": 0.1,
+      "output_kd": 0.1,
+      "teacher_last": 1.0,
+      "teacher_global": 1.0,
+      "explore_theta": 0.2
+    }
+  }
+}

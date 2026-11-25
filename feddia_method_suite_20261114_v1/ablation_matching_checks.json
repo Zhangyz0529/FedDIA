@@ -1,0 +1,20 @@
+[
+  {
+    "seed": 42,
+    "task1_state_tensor_equal": true,
+    "all_current_batches_equal": true,
+    "er_draws_equal": true
+  },
+  {
+    "seed": 43,
+    "task1_state_tensor_equal": true,
+    "all_current_batches_equal": true,
+    "er_draws_equal": true
+  },
+  {
+    "seed": 123,
+    "task1_state_tensor_equal": true,
+    "all_current_batches_equal": true,
+    "er_draws_equal": true
+  }
+]

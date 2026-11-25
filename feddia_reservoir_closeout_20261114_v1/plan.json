@@ -1,0 +1,54 @@
+{
+  "baseline": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/supplementary_data/feddia_method_suite_20261114_v1",
+  "extension": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/supplementary_data/feddia_external_fifo_20261114_v1",
+  "jobs": [
+    {
+      "id": "RESERVOIR_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "RESERVOIR",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "reservoir"
+    },
+    {
+      "id": "RESERVOIR_5-5-5_s43",
+      "dataset": "CIC_IDS",
+      "arm": "RESERVOIR",
+      "seed": 43,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "reservoir"
+    },
+    {
+      "id": "RESERVOIR_5-5-5_s123",
+      "dataset": "CIC_IDS",
+      "arm": "RESERVOIR",
+      "seed": 123,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "reservoir"
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    123
+  ],
+  "reservoir": "Algorithm R, task-end original train records once, persistent per-client seen count; retained records never fed back as candidates",
+  "identity": "immutable client/task/train/row; distinct original rows remain distinct even if equal-valued; no deduplication of the historical candidate stream",
+  "order": "frozen pickle row order, task chronological index; not claimed physical arrival time",
+  "rng": "independent random.Random(seed*1000000+client*1000+8675309), persistent across tasks; no effect on current or replay RNG",
+  "control": "M0 width48 full updates, ER capacity240 weight0.5, batch64 epochs3, fixed 5/5/5; exact shared Task1 weights; fresh optimizer per call",
+  "selection": "no hyperparameter search; all three runs specified before new test inference",
+  "limitation": "development-used diagnostic split, not independent confirmation; dual input physical pairing uncertified"
+}

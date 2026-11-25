@@ -1,0 +1,13 @@
+{
+  "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "executable": "python",
+  "platform": "Linux-5.10.0-60.18.0.50.oe2203.x86_64-x86_64-with-glibc2.34",
+  "torch": "2.1.2+cu121",
+  "torch_cuda_build": "12.1",
+  "numpy": "1.26.4",
+  "sklearn": "1.2.2",
+  "threads_per_worker": 2,
+  "worker_slots": 2,
+  "gpu_names_recorded_per_run": true,
+  "latency_or_hardware_efficiency_claims": false
+}

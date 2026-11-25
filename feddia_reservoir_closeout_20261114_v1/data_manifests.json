@@ -1,0 +1,76 @@
+{
+  "CIC_IDS": {
+    "status": "READY_DIAGNOSTIC_ONLY",
+    "source_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/fcl_datasets/cicids_fcl_3clients_3tasks_original_split.pkl",
+    "source_sha256": "bf87e1d08b498c48b4e02109d4251505b512f40f067934aae85d1cadca7357c4",
+    "data_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/experiment_logs/reviewer_repair_20260926_v1/cicids_input_unique_resplit.pkl",
+    "data_sha256": "b9b246b2aad8e2811ad2bcb2f819a40389a4ad1ace9c7600840a51be25dec877",
+    "split_seed": 42,
+    "samples": 22366,
+    "taxonomy": [
+      "BENIGN",
+      "DDoS",
+      "DoS",
+      "FTP-Patator",
+      "PortScan",
+      "SSH-Patator"
+    ],
+    "duplicate_policy": "one owner globally; conflicting-label input groups quarantined",
+    "split_policy": "fresh stratified 70/10/20 per owner client/task/class",
+    "flow_alignment_validated": false,
+    "session_disjoint": false,
+    "time_disjoint": false,
+    "limitation": "Legacy multimodal alignment inherited. Exact-input isolation only; not a final leakage-free dataset.",
+    "normal_label": "BENIGN",
+    "normal_label_source": "explicit existing BENIGN/Benign taxonomy entry; no data relabeling"
+  },
+  "USTC": {
+    "status": "READY_DIAGNOSTIC_ONLY",
+    "source_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/fcl_datasets/ustc_fcl_3clients_3tasks.pkl",
+    "source_sha256": "531430b0262c60973ced4c3d7dc75e2b5e324e1fb3322bc4c148e090859a2c3a",
+    "data_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/experiment_logs/reviewer_followups_20260926_v1/cross_dataset/USTC/ustc_input_unique_resplit.pkl",
+    "data_sha256": "4c04b6fcb70cb2b08e0da80fbf7f29cc07f219e597fa42fbb7614ccec66973ef",
+    "split_seed": 42,
+    "samples": 22319,
+    "taxonomy": [
+      "Benign",
+      "Htbot",
+      "Miuref",
+      "Neris",
+      "Virut"
+    ],
+    "dataset": "USTC",
+    "normal_label": "Benign",
+    "duplicate_policy": "one owner globally; conflicting-label input groups quarantined",
+    "split_policy": "fresh stratified 70/10/20 per owner client/task/class",
+    "flow_alignment_validated": false,
+    "session_disjoint": false,
+    "time_disjoint": false,
+    "limitation": "Legacy multimodal alignment inherited. Exact-input isolation only; not a final leakage-free dataset.",
+    "normal_label_source": "explicit existing BENIGN/Benign taxonomy entry; no data relabeling"
+  },
+  "CIC_DOH": {
+    "status": "READY_DIAGNOSTIC_ONLY",
+    "source_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/fcl_datasets_cicdoh/cicdoh_fcl_3clients_original.pkl",
+    "source_sha256": "31e2a889dc832bc103100948214a9afce8a5300985353209b140afe201375d7c",
+    "data_path": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/experiment_logs/reviewer_followups_20260926_v1/cross_dataset/CIC_DOH/cic_doh_input_unique_resplit.pkl",
+    "data_sha256": "63e8fc3b7814efc1d75f0686b3f34316377e55376c7ca75f2c22552e94c88142",
+    "split_seed": 42,
+    "samples": 22278,
+    "taxonomy": [
+      "Benign",
+      "dns2tcp",
+      "dnscat2",
+      "iodine"
+    ],
+    "dataset": "CIC_DOH",
+    "normal_label": "Benign",
+    "duplicate_policy": "one owner globally; conflicting-label input groups quarantined",
+    "split_policy": "fresh stratified 70/10/20 per owner client/task/class",
+    "flow_alignment_validated": false,
+    "session_disjoint": false,
+    "time_disjoint": false,
+    "limitation": "Legacy multimodal alignment inherited. Exact-input isolation only; not a final leakage-free dataset.",
+    "normal_label_source": "explicit existing BENIGN/Benign taxonomy entry; no data relabeling"
+  }
+}

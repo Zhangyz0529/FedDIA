@@ -1,0 +1,91 @@
+{
+  "derpp": {
+    "id": "CIC_IDS_M5_5-5-5_s42_c3",
+    "dataset": "CIC_IDS",
+    "arm": "M5",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "der_candidate",
+    "alpha": 0.5,
+    "beta": 1.0
+  },
+  "budget": {
+    "M0": {
+      "id": "CIC_IDS_M0_7-7-7_s42",
+      "dataset": "CIC_IDS",
+      "arm": "M0",
+      "seed": 42,
+      "schedule": [
+        7,
+        7,
+        7
+      ],
+      "role": "budget_candidate",
+      "policy": "balanced",
+      "cap_bytes": 37208796
+    },
+    "M4": {
+      "id": "CIC_IDS_M4_8-8-8_s42",
+      "dataset": "CIC_IDS",
+      "arm": "M4",
+      "seed": 42,
+      "schedule": [
+        8,
+        8,
+        8
+      ],
+      "role": "budget_candidate",
+      "policy": "balanced",
+      "cap_bytes": 37208796
+    },
+    "M2": {
+      "id": "CIC_IDS_M2_8-8-16_s42",
+      "dataset": "CIC_IDS",
+      "arm": "M2",
+      "seed": 42,
+      "schedule": [
+        8,
+        8,
+        16
+      ],
+      "role": "budget_candidate",
+      "policy": "back",
+      "cap_bytes": 37208796
+    },
+    "M6": {
+      "id": "CIC_IDS_M6_4-2-2_s42",
+      "dataset": "CIC_IDS",
+      "arm": "M6",
+      "seed": 42,
+      "schedule": [
+        4,
+        2,
+        2
+      ],
+      "role": "budget_candidate",
+      "policy": "front",
+      "cap_bytes": 37208796
+    },
+    "M5": {
+      "id": "CIC_IDS_M5_10-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "M5",
+      "seed": 42,
+      "schedule": [
+        10,
+        5,
+        5
+      ],
+      "role": "budget_candidate",
+      "policy": "front",
+      "cap_bytes": 37208796,
+      "alpha": 0.5,
+      "beta": 1.0
+    }
+  },
+  "criterion": "maximize final validation task-average macro F1, then fewer actual bytes, then id; seed42 only"
+}

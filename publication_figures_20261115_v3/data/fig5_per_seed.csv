@@ -1,0 +1,61 @@
+role,arm,seed,label,old_task_support,correct_type_recall_percent,population,support
+fixed,FIFO,123,DDoS,201,87.56218905472637,fixed Tasks1-2 at stage3,
+fixed,FIFO,123,DoS,189,82.01058201058201,fixed Tasks1-2 at stage3,
+fixed,FIFO,123,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,FIFO,123,PortScan,100,63.0,fixed Tasks1-2 at stage3,
+fixed,FIFO,42,DDoS,201,47.76119402985075,fixed Tasks1-2 at stage3,
+fixed,FIFO,42,DoS,189,54.4973544973545,fixed Tasks1-2 at stage3,
+fixed,FIFO,42,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,FIFO,42,PortScan,100,40.0,fixed Tasks1-2 at stage3,
+fixed,FIFO,43,DDoS,201,82.08955223880596,fixed Tasks1-2 at stage3,
+fixed,FIFO,43,DoS,189,64.55026455026454,fixed Tasks1-2 at stage3,
+fixed,FIFO,43,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,FIFO,43,PortScan,100,89.0,fixed Tasks1-2 at stage3,
+fixed,LWF,123,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,123,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,123,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,LWF,123,PortScan,100,85.0,fixed Tasks1-2 at stage3,
+fixed,LWF,42,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,42,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,42,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,LWF,42,PortScan,100,48.0,fixed Tasks1-2 at stage3,
+fixed,LWF,43,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,43,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,LWF,43,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,LWF,43,PortScan,100,27.0,fixed Tasks1-2 at stage3,
+fixed,M0,123,DDoS,201,98.50746268656717,fixed Tasks1-2 at stage3,
+fixed,M0,123,DoS,189,93.12169312169313,fixed Tasks1-2 at stage3,
+fixed,M0,123,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,M0,123,PortScan,100,100.0,fixed Tasks1-2 at stage3,
+fixed,M0,42,DDoS,201,99.50248756218906,fixed Tasks1-2 at stage3,
+fixed,M0,42,DoS,189,99.47089947089947,fixed Tasks1-2 at stage3,
+fixed,M0,42,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,M0,42,PortScan,100,100.0,fixed Tasks1-2 at stage3,
+fixed,M0,43,DDoS,201,98.50746268656717,fixed Tasks1-2 at stage3,
+fixed,M0,43,DoS,189,98.41269841269842,fixed Tasks1-2 at stage3,
+fixed,M0,43,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,M0,43,PortScan,100,100.0,fixed Tasks1-2 at stage3,
+fixed,M1,123,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,123,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,123,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,M1,123,PortScan,100,80.0,fixed Tasks1-2 at stage3,
+fixed,M1,42,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,42,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,42,FTP-Patator,94,100.0,fixed Tasks1-2 at stage3,
+fixed,M1,42,PortScan,100,65.0,fixed Tasks1-2 at stage3,
+fixed,M1,43,DDoS,201,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,43,DoS,189,0.0,fixed Tasks1-2 at stage3,
+fixed,M1,43,FTP-Patator,94,98.93617021276596,fixed Tasks1-2 at stage3,
+fixed,M1,43,PortScan,100,59.0,fixed Tasks1-2 at stage3,
+,RESERVOIR,42,DDoS,,94.02985074626865,,201
+,RESERVOIR,42,DoS,,80.42328042328042,,189
+,RESERVOIR,42,FTP-Patator,,100.0,,94
+,RESERVOIR,42,PortScan,,96.0,,100
+,RESERVOIR,43,DDoS,,95.5223880597015,,201
+,RESERVOIR,43,DoS,,95.76719576719577,,189
+,RESERVOIR,43,FTP-Patator,,100.0,,94
+,RESERVOIR,43,PortScan,,100.0,,100
+,RESERVOIR,123,DDoS,,94.02985074626865,,201
+,RESERVOIR,123,DoS,,93.65079365079364,,189
+,RESERVOIR,123,FTP-Patator,,100.0,,94
+,RESERVOIR,123,PortScan,,93.0,,100

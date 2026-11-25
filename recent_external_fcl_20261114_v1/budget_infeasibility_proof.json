@@ -1,0 +1,10 @@
+[
+  {
+    "arm": "AFFCL",
+    "source_run": "CIC_IDS_AFFCL_cfg2_5-5-5_s42",
+    "mandatory_first_round_flow_download_bytes": 54587587,
+    "mandatory_first_round_all_model_download_bytes": 55520813,
+    "cap_bytes": 37208796,
+    "infeasible_before_any_upload": true
+  }
+]

@@ -1,0 +1,1003 @@
+{
+  "baseline": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/supplementary_data/feddia_method_suite_20261114_v1",
+  "project": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL",
+  "methods": [
+    "FedCLASS",
+    "ReFed",
+    "AFFCL"
+  ],
+  "seeds": [
+    42,
+    43,
+    123
+  ],
+  "cap_bytes": 37208796,
+  "jobs": [
+    {
+      "id": "CIC_IDS_FedCLASS_cfg0_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_FedCLASS_cfg1_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_FedCLASS_cfg2_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_FedCLASS_cfg3_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_FedCLASS_cfg4_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_FedCLASS_cfg5_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg0_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg1_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg2_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg3_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg4_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_ReFed_cfg5_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_IDS_AFFCL_cfg0_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "flow_lr": 0.001737670720958496,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "CIC_IDS_AFFCL_cfg1_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "CIC_IDS_AFFCL_cfg2_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 1.0,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg0_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg1_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg2_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg3_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg4_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_FedCLASS_cfg5_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg0_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg1_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg2_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg3_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg4_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_ReFed_cfg5_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "USTC_AFFCL_cfg0_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "flow_lr": 0.001737670720958496,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "USTC_AFFCL_cfg1_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "USTC_AFFCL_cfg2_5-5-5_s42",
+      "dataset": "USTC",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 1.0,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg0_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg1_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg2_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg3_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg4_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_FedCLASS_cfg5_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "FedCLASS",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg0_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg1_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg2_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg3_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg4_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_ReFed_cfg5_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.01,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "CIC_DOH_AFFCL_cfg0_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "flow_lr": 0.001737670720958496,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "CIC_DOH_AFFCL_cfg1_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    },
+    {
+      "id": "CIC_DOH_AFFCL_cfg2_5-5-5_s42",
+      "dataset": "CIC_DOH",
+      "arm": "AFFCL",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "parameter_candidate",
+      "config": {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 1.0,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    }
+  ],
+  "configs": {
+    "FedCLASS": [
+      {
+        "lr": 0.001737670720958496,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      },
+      {
+        "lr": 0.001737670720958496,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      },
+      {
+        "lr": 0.001737670720958496,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      },
+      {
+        "lr": 0.01,
+        "alpha": 1.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      },
+      {
+        "lr": 0.01,
+        "alpha": 5.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      },
+      {
+        "lr": 0.01,
+        "alpha": 10.0,
+        "T_old": 5.0,
+        "T_new": 3.0
+      }
+    ],
+    "ReFed": [
+      {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      },
+      {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      },
+      {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      },
+      {
+        "lr": 0.01,
+        "pim_lambda": 0.2,
+        "pim_epochs": 3
+      },
+      {
+        "lr": 0.01,
+        "pim_lambda": 0.5,
+        "pim_epochs": 3
+      },
+      {
+        "lr": 0.01,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    ],
+    "AFFCL": [
+      {
+        "lr": 0.001737670720958496,
+        "flow_lr": 0.001737670720958496,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      },
+      {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 0.1,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      },
+      {
+        "lr": 0.001,
+        "flow_lr": 0.001,
+        "flow_weight": 1.0,
+        "flow_hidden": 512,
+        "flow_layers": 4,
+        "flow_history_weight": 0.4,
+        "feature_kd": 0.1,
+        "output_kd": 0.1,
+        "teacher_last": 1.0,
+        "teacher_global": 1.0,
+        "explore_theta": 0.2
+      }
+    ]
+  },
+  "protocol": "unchanged existing diagnostic splits, immutable global vocabulary, current inputs and preprocessing shared; full runs from initialization, no shared Task1",
+  "selection": "seed42 maximum final validation fixed-task-average macro F1; tie lower actual duplex bytes then lexicographic job ID; parameters per dataset, then CIC budget schedule",
+  "model": "width48 original statistical/sequence encoders, SE, fusion norm and residual Adapter; external linear head, AF-FCL adds native fc2; no forced CosFace loss",
+  "no_new_method_selection_by_test": true,
+  "formal_scope": "3 methods x 3 seeds x (CIC fixed, CIC budget if feasible, USTC fixed, DoH fixed)",
+  "candidates": "three actual feasible round templates balanced/front/back under full initialization+model+auxiliary+control costs; infeasible minimum 1/1/1 reported without stripping modules",
+  "recurrence": "old = union previous train labels, newly introduced = current union minus old, explicit non-contiguous index sets; empty-new stages retained",
+  "FedCLASS": "author temperature_old5/new3 loss; CE + alpha reverse-KL with non-detached augmented student-derived target, no T^2; first-per-class memory240; train current+memory uniformly; teacher preceding global model",
+  "ReFed": "paper Eqs3-6: task-end PIM initialized from final local model, squared L2 proximal to final global, SGD; sample gradient squared norms via torch.func.vmap, reciprocal epoch weighting over3passes; choose top240 from memory+current once; joint uniform CE; final-global broadcast charged",
+  "AFFCL": "native AST-extracted four-layer affine conditional flow hidden512; likelihood plus last-flow replay, probability-weighted feature replay, old/global feature/output KD; classifier+flow aggregation; all auxiliary messages charged; history model copies retained",
+  "budget_accounting": "pickle protocol default serialized CPU state; initialization included in first-round download, plus every-round upload/download; ReFed task-end classifier broadcast; method class metadata each phase; AF full flow included",
+  "test_gate": "all validation selection and required cross-dataset training complete before any new test inference",
+  "limitations": "adaptations under unified traffic representation, not faithful image-protocol replication; diagnostic split has development history; no claim of reproduced original benchmark scores",
+  "preflight_runs": 3,
+  "preflight_archive": "development_preflight_v0",
+  "AF_numerical_guards": "variance floor1e-6 in native trust-density function; gradient norm10 with error_if_nonfinite on classifier/head and flow steps; native unguarded failed validation preflight archived; before test selection",
+  "formal_seed42_reuse": false,
+  "formal_training_policy": "Separate fresh runs for 42,43,123 after selection; validation candidate checkpoints do not count as formal training."
+}

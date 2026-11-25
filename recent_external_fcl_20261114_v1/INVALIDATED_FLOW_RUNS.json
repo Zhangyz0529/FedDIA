@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CIC_DOH_AFFCL_cfg1_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "CIC_IDS_AFFCL_cfg1_5-5-5_s42",
+    "completed": true,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "CIC_IDS_AFFCL_cfg0_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "USTC_AFFCL_cfg1_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "CIC_DOH_AFFCL_cfg0_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "CIC_IDS_AFFCL_cfg2_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "USTC_AFFCL_cfg0_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "CIC_DOH_AFFCL_cfg2_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  },
+  {
+    "id": "USTC_AFFCL_cfg2_5-5-5_s42",
+    "completed": false,
+    "reason": "integer permutation buffers incorrectly averaged; invalid regardless of score",
+    "test_inference": false
+  }
+]

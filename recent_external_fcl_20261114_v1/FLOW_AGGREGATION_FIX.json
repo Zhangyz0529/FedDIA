@@ -1,0 +1,23 @@
+{
+  "reason": "Correct substantive AF flow aggregation bug: average trainable parameters only, retain invariant buffers and assert permutation bijections every round",
+  "invalidated_development_attempts": 9,
+  "invalidated_ids": [
+    "CIC_DOH_AFFCL_cfg1_5-5-5_s42",
+    "CIC_IDS_AFFCL_cfg1_5-5-5_s42",
+    "CIC_IDS_AFFCL_cfg0_5-5-5_s42",
+    "USTC_AFFCL_cfg1_5-5-5_s42",
+    "CIC_DOH_AFFCL_cfg0_5-5-5_s42",
+    "CIC_IDS_AFFCL_cfg2_5-5-5_s42",
+    "USTC_AFFCL_cfg0_5-5-5_s42",
+    "CIC_DOH_AFFCL_cfg2_5-5-5_s42",
+    "USTC_AFFCL_cfg2_5-5-5_s42"
+  ],
+  "unaffected_methods": [
+    "FedCLASS",
+    "ReFed"
+  ],
+  "test_inference_before_fix": false,
+  "old_code": "code_before_flow_buffer_fix",
+  "old_runner_sha256": "177657efa987f3961f285d7b2ebf5a742fa636a0b96201ef800cfd01c5030174",
+  "new_runner_sha256": "fd19bc43966251baff95f9c5e1cc43dd79c1f87237b17839cb94dfcea1ff391b"
+}

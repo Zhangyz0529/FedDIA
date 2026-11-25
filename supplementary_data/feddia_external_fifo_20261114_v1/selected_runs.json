@@ -1,0 +1,119 @@
+[
+  {
+    "id": "LWF_lambda0.1_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "external_fixed",
+    "kd_lambda": 0.1
+  },
+  {
+    "id": "LWF_fixed_s43",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 43,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "external_fixed",
+    "kd_lambda": 0.1
+  },
+  {
+    "id": "LWF_fixed_s123",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 123,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "external_fixed",
+    "kd_lambda": 0.1
+  },
+  {
+    "id": "FIFO_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "FIFO",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "fifo"
+  },
+  {
+    "id": "FIFO_5-5-5_s43",
+    "dataset": "CIC_IDS",
+    "arm": "FIFO",
+    "seed": 43,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "fifo"
+  },
+  {
+    "id": "FIFO_5-5-5_s123",
+    "dataset": "CIC_IDS",
+    "arm": "FIFO",
+    "seed": 123,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "fifo"
+  },
+  {
+    "id": "LWF_budget_5-5-10_s42",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      10
+    ],
+    "role": "external_budget",
+    "kd_lambda": 0.1,
+    "cap_bytes": 37208796
+  },
+  {
+    "id": "LWF_budget_final_s43",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 43,
+    "schedule": [
+      5,
+      5,
+      10
+    ],
+    "role": "external_budget",
+    "kd_lambda": 0.1,
+    "cap_bytes": 37208796
+  },
+  {
+    "id": "LWF_budget_final_s123",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 123,
+    "schedule": [
+      5,
+      5,
+      10
+    ],
+    "role": "external_budget",
+    "kd_lambda": 0.1,
+    "cap_bytes": 37208796
+  }
+]

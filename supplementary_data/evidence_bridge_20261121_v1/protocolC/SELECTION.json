@@ -1,0 +1,10 @@
+{
+  "neural": "unchanged original settings, no new neural tuning",
+  "logistic": {
+    "C": 10.0,
+    "stage": 3,
+    "validation_macroF1": 78.57142857142857
+  },
+  "source_unused_not_used": true,
+  "logistic_not_FCL": true
+}

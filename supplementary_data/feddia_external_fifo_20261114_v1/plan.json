@@ -1,0 +1,121 @@
+{
+  "baseline": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL/supplementary_data/feddia_method_suite_20261114_v1",
+  "project": "${WORKSPACE_ROOT}/TNSM/datasets/V_second_DSTA/Paper4_FCL",
+  "seeds": [
+    42,
+    43,
+    123
+  ],
+  "cap_bytes": 37208796,
+  "jobs": [
+    {
+      "id": "LWF_lambda0.1_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "LWF",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "lambda_candidate",
+      "kd_lambda": 0.1
+    },
+    {
+      "id": "LWF_lambda0.5_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "LWF",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "lambda_candidate",
+      "kd_lambda": 0.5
+    },
+    {
+      "id": "LWF_lambda1.0_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "LWF",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "lambda_candidate",
+      "kd_lambda": 1.0
+    },
+    {
+      "id": "FIFO_5-5-5_s42",
+      "dataset": "CIC_IDS",
+      "arm": "FIFO",
+      "seed": 42,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "fifo"
+    },
+    {
+      "id": "FIFO_5-5-5_s43",
+      "dataset": "CIC_IDS",
+      "arm": "FIFO",
+      "seed": 43,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "fifo"
+    },
+    {
+      "id": "FIFO_5-5-5_s123",
+      "dataset": "CIC_IDS",
+      "arm": "FIFO",
+      "seed": 123,
+      "schedule": [
+        5,
+        5,
+        5
+      ],
+      "role": "fifo"
+    }
+  ],
+  "kd_temperature": 2.0,
+  "lambda_candidates": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "budget_candidates": [
+    [
+      7,
+      7,
+      7
+    ],
+    [
+      10,
+      5,
+      5
+    ],
+    [
+      5,
+      5,
+      10
+    ]
+  ],
+  "selection": "maximum final validation task-average macro F1, lower actual duplex bytes, lexicographic id; seed42 only",
+  "architecture": "same width48 custom dual input, full updates, same fixed global vocabulary",
+  "FIFO": "task-end append in frozen client/task pickle row order, retain last240, no class quota; same ER loss0.5, shuffle, epochs, batch and current RNG",
+  "LWF": "FedAvg + previous-phase global teacher cloned from first current-model download per phase; no replay; CE plus lambda*T^2*KL(teacher old-class softmax || student old-class softmax); old IDs from past train only",
+  "LWF_naming": "Federated LwF adaptation, not GLFC/EdgeFedCIL faithful reproduction",
+  "teacher_communication": "teacher exactly equals first current-model download of each new phase; cache locally, no separate teacher transmission, no prototypes or auxiliary uploads",
+  "local_history": "one active frozen full model + old-class ID metadata per client; report serialized and tensor bytes; no old input samples for LWF",
+  "test_gate": "all validation selection frozen and all new training finished before new test inference",
+  "fifo_matching": "shared Task1 checkpoint, prefix communication included; all current batches, steps and replay sample counts compared to M0",
+  "severely_underrepresented_rule": "count < 0.25 * floor(240 / historically_seen_client_class_count)",
+  "limitation": "same development-used diagnostic split and uncertified legacy input pairing; not new external-data generalization"
+}

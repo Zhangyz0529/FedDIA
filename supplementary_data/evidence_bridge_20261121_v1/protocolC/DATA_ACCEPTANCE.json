@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "n_source_unused": 1200,
+  "original_eligible_cohort_counts_reproduced": true,
+  "unchanged_task_boundaries": true,
+  "source_unused_IDs_and_float32_vectors_disjoint": true,
+  "no_model_scores_used": true,
+  "original_plan_sha256": "69acdc27a1d5f79658c2980f67b168a764a8b3644221298fa1c2792a6841244c",
+  "original_input_hashes": {
+    "train": "5171d83388eb169220a9bf0b0a02c52fdccc9e05eca3857b1e00e7aaa75e204b",
+    "val": "36e24a4ddc694dcdd6eb042b49bdb29ff0489df249a4f42f1c9424927ec3ebe2",
+    "test": "e7d78ba975dbe24c7100bc48d3ed20fd7e43187ba2cd7a411dfc2c7f8250f2be"
+  },
+  "original_source_hashes": {
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/44_argus.conf": "7d033ff19ccc8d8454cbbdee71b7e7dac4d751567ba03505273ad91f331a741a",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/44_ra.conf": "589970fce94b80d1558a978f93afda47925f875706de2452ffcf266b1309b211",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/44_README.md": "07e086a2fa6c3cb12309712c29e06c633fdd4d0127ed86bf4509d375af88d391",
+    "supplementary_data/e4_source_acquisition_20261111_v1/raw/44_capture20110812.binetflow": "0ebcd1df082bb5f85f8254c3857b02fdbb597c9b2ee7c50f908cc24ca92c0054",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/45_argus.conf": "7d033ff19ccc8d8454cbbdee71b7e7dac4d751567ba03505273ad91f331a741a",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/45_ra.conf": "589970fce94b80d1558a978f93afda47925f875706de2452ffcf266b1309b211",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/45_README.md": "17cd780dd2210bab4c5d671f6ae2d6e894ead17bedbc2b427cbffb98a7b98731",
+    "supplementary_data/e4_source_acquisition_20261111_v1/raw/45_capture20110815.binetflow": "30353fcffe971e97839ccffaa1675535490420f1ba1f65e5c90f6a815a8ab2c0",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/51_argus.conf": "7d033ff19ccc8d8454cbbdee71b7e7dac4d751567ba03505273ad91f331a741a",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/51_ra.conf": "589970fce94b80d1558a978f93afda47925f875706de2452ffcf266b1309b211",
+    "supplementary_data/e4_source_acquisition_20261111_v1/official_metadata/51_README.md": "8b4cb5ff913d83b1892540c1dda554c3f0eb52bdfe0e22a2b541782e84003b39",
+    "supplementary_data/e4_source_acquisition_20261111_v1/raw/51_capture20110818.binetflow": "840a7030d57cb965a4e6e19c61e89b20647a4aefe5608c2da90623710e7cd74f"
+  },
+  "new_source_unused_sha256": "65944c45184dfffe0cbb9308c2c5de20e9462533ba53e788b2ba023cae7088b8"
+}

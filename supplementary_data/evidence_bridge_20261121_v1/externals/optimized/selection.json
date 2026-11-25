@@ -1,0 +1,74 @@
+{
+  "rule": "seed42 maximum final validation fixed-task-average macroF1; tie lower executed bytes then job ID",
+  "candidates": [
+    {
+      "id": "candidate_8-7-7_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        8,
+        7,
+        7
+      ],
+      "role": "budget_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "candidate_10-6-6_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        10,
+        6,
+        6
+      ],
+      "role": "budget_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    },
+    {
+      "id": "candidate_6-6-10_s42",
+      "dataset": "CIC_IDS",
+      "arm": "ReFed",
+      "seed": 42,
+      "schedule": [
+        6,
+        6,
+        10
+      ],
+      "role": "budget_candidate",
+      "config": {
+        "lr": 0.001737670720958496,
+        "pim_lambda": 0.8,
+        "pim_epochs": 3
+      }
+    }
+  ],
+  "winner": {
+    "id": "candidate_10-6-6_s42",
+    "dataset": "CIC_IDS",
+    "arm": "ReFed",
+    "seed": 42,
+    "schedule": [
+      10,
+      6,
+      6
+    ],
+    "role": "budget_candidate",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  },
+  "formal_seed42_fresh": true
+}

@@ -1,0 +1,22 @@
+{
+  "archived_reference_run": "CIC_IDS_ReFed_fixed_s42",
+  "matched_transport_reference_run": "execution_equivalence_s42",
+  "checks": [
+    {
+      "task": 1,
+      "bitwise_identical": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "task": 2,
+      "bitwise_identical": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "task": 3,
+      "bitwise_identical": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "interpretation": "Same-GPU execution equivalence is independently required in REFED_EXECUTION_EQUIVALENCE.json; this comparison only binds the historical run."
+}

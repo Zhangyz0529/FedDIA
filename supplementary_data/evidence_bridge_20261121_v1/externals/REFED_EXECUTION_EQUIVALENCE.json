@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "rounds_exact": 15,
+  "all_global_round_states_exact": true,
+  "all_current_batches_replay_counts_optimizer_updates_losses_exact": true,
+  "earlier_cache_scores_and_inputs_exact": true,
+  "comparisons": [
+    {
+      "task": 1,
+      "client": 0,
+      "selection_scores_indices_buffer_exact": true
+    },
+    {
+      "task": 1,
+      "client": 1,
+      "selection_scores_indices_buffer_exact": true
+    },
+    {
+      "task": 1,
+      "client": 2,
+      "selection_scores_indices_buffer_exact": true
+    },
+    {
+      "task": 2,
+      "client": 0,
+      "selection_scores_indices_buffer_exact": true
+    },
+    {
+      "task": 2,
+      "client": 1,
+      "selection_scores_indices_buffer_exact": true
+    },
+    {
+      "task": 2,
+      "client": 2,
+      "selection_scores_indices_buffer_exact": true
+    }
+  ],
+  "cached_receipt_reused": 6,
+  "terminal_PIM_steps_omitted": true,
+  "terminal_cache_intentionally_not_rebuilt": true,
+  "legacy_executed_bytes": 27030757,
+  "optimized_executed_bytes": 24573483,
+  "saving_bytes": 2457274,
+  "actual_serialized_payloads_verified": true,
+  "not_real_network_measurement": true
+}

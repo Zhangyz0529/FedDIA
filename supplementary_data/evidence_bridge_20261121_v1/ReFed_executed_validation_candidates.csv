@@ -1,0 +1,4 @@
+id,schedule,validation_task_average_F1,executed_bytes,selected
+candidate_8-7-7_s42,8/7/7,98.99540013825843,36040815,False
+candidate_10-6-6_s42,10/6/6,99.8173111620239,36040815,True
+candidate_6-6-10_s42,6/6/10,97.53503627779104,36040797,False

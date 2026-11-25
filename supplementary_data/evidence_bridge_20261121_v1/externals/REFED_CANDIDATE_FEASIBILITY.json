@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "ordinary_round_observed_max_bytes": 1638204,
+  "conservative_22_round_bound": 36138792,
+  "cap_bytes": 37208796,
+  "anchor_reuse_boundary_net_extra_bytes": 0,
+  "schedules": [
+    [
+      8,
+      7,
+      7
+    ],
+    [
+      10,
+      6,
+      6
+    ],
+    [
+      6,
+      6,
+      10
+    ]
+  ]
+}

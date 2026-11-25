@@ -1,0 +1,42 @@
+{
+  "protocol": "unchanged Protocol C Rbot binary statistics capture holdout",
+  "schedule": [
+    5,
+    7,
+    7
+  ],
+  "seeds": [
+    42,
+    43,
+    123
+  ],
+  "methods": [
+    "FULL",
+    "FROZEN",
+    "PLAIN",
+    "LOGISTIC_REFERENCE"
+  ],
+  "preprocessing": "reuse frozen original Task1-training mean/SD; no refit",
+  "hyperparameters": "NN unchanged original AdamW lr 0.001737670720958496, 3 local epochs, batch64, ER240 weight0.5",
+  "freeze": "after shared Task1: freeze stat_encoder, SE and fusion_norm; train Adapter and classifier",
+  "plain": "same width48 statistical encoder and fusion normalization; no SE/Adapter/CosFace; linear head",
+  "full": "reuse three original late-schedule runs",
+  "frozen": "reuse each same-seed original Task1; continue Tasks2/3",
+  "logistic_C_candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "logistic_selection": "seed-independent final validation pooled macroF1; tie smaller C",
+  "logistic_scope": "centralized cumulative-seen training reference, not a federated continual method or communication competitor",
+  "source_unused": "200 records per task/class from unchanged eligible chronological thirds; rank by SHA256 20261121; exclude all existing transformed inputs",
+  "source_unused_not_used_for_selection": true,
+  "new_test_policy": "after all NN training and logistic validation selection",
+  "independent_confirmation": false,
+  "source_roles": {
+    "source_train": 44,
+    "source_unused": 44,
+    "validation": 45,
+    "test": 51
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "rule": "largest hidden power-of-two in [16,32,64,128,256,512] whose conservative full 5/5/5 payload bound fits cap; four native coupling layers retained",
+  "sizes": [
+    {
+      "hidden": 16,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 93476,
+      "flow_parameters": 15296,
+      "full_5_5_5_bound_bytes": 36510032,
+      "feasible": true
+    },
+    {
+      "hidden": 32,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 185899,
+      "flow_parameters": 38400,
+      "full_5_5_5_bound_bytes": 44828102,
+      "feasible": false
+    },
+    {
+      "hidden": 64,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 469081,
+      "flow_parameters": 109184,
+      "full_5_5_5_bound_bytes": 70314482,
+      "feasible": false
+    },
+    {
+      "hidden": 128,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 1428684,
+      "flow_parameters": 349056,
+      "full_5_5_5_bound_bytes": 156678752,
+      "feasible": false
+    },
+    {
+      "hidden": 256,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 4920727,
+      "flow_parameters": 1222016,
+      "full_5_5_5_bound_bytes": 470962622,
+      "feasible": false
+    },
+    {
+      "hidden": 512,
+      "layers": 4,
+      "classifier_bytes": 311076,
+      "flow_bytes": 18195861,
+      "flow_parameters": 4540800,
+      "full_5_5_5_bound_bytes": 1665724682,
+      "feasible": false
+    }
+  ],
+  "selected": {
+    "hidden": 16,
+    "layers": 4,
+    "classifier_bytes": 311076,
+    "flow_bytes": 93476,
+    "flow_parameters": 15296,
+    "full_5_5_5_bound_bytes": 36510032,
+    "feasible": true
+  },
+  "config": {
+    "lr": 0.001,
+    "flow_lr": 0.001,
+    "flow_weight": 1.0,
+    "flow_hidden": 16,
+    "flow_layers": 4,
+    "flow_history_weight": 0.4,
+    "feature_kd": 0.1,
+    "output_kd": 0.1,
+    "teacher_last": 1.0,
+    "teacher_global": 1.0,
+    "explore_theta": 0.2
+  },
+  "performance_scores_used": false,
+  "original_hidden512_source": "official/AF-FCL/FLAlgorithms/PreciseFCLNet/model.py lines65-82",
+  "new_width_is_resource_adaptation": true,
+  "not_an_author_recommended_small_configuration": true
+}

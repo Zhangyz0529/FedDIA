@@ -1,0 +1,53 @@
+[
+  {
+    "id": "optimized_refed_formal_s42",
+    "dataset": "CIC_IDS",
+    "arm": "ReFed",
+    "seed": 42,
+    "schedule": [
+      10,
+      6,
+      6
+    ],
+    "role": "budget_final",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  },
+  {
+    "id": "optimized_refed_formal_s43",
+    "dataset": "CIC_IDS",
+    "arm": "ReFed",
+    "seed": 43,
+    "schedule": [
+      10,
+      6,
+      6
+    ],
+    "role": "budget_final",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  },
+  {
+    "id": "optimized_refed_formal_s123",
+    "dataset": "CIC_IDS",
+    "arm": "ReFed",
+    "seed": 123,
+    "schedule": [
+      10,
+      6,
+      6
+    ],
+    "role": "budget_final",
+    "config": {
+      "lr": 0.001737670720958496,
+      "pim_lambda": 0.8,
+      "pim_epochs": 3
+    }
+  }
+]

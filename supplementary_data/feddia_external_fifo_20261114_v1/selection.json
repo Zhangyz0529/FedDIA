@@ -1,0 +1,30 @@
+{
+  "lambda_selection": {
+    "id": "LWF_lambda0.1_5-5-5_s42",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      5
+    ],
+    "role": "lambda_candidate",
+    "kd_lambda": 0.1
+  },
+  "budget_selection": {
+    "id": "LWF_budget_5-5-10_s42",
+    "dataset": "CIC_IDS",
+    "arm": "LWF",
+    "seed": 42,
+    "schedule": [
+      5,
+      5,
+      10
+    ],
+    "role": "budget_candidate",
+    "kd_lambda": 0.1,
+    "cap_bytes": 37208796
+  },
+  "criterion": "maximum final validation task-average macro F1, lower actual duplex bytes, lexicographic id; seed42 only"
+}

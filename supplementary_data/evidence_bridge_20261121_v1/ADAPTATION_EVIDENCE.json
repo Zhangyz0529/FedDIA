@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EVIDENCE_BOUND",
+  "method_comparison": "traffic-domain adaptations only",
+  "existing_checks_reused": true,
+  "FedCLASS_new_training_required": false,
+  "optimizer_caveat": "AF-FCL Adam moments restart is a real adaptation difference; FedCLASS native call creates SGD anew",
+  "original_code_commits": {
+    "FedCLASS": "e03e30653165b76ddf980393794f395f838ee967",
+    "FedCBDR": "33b27549950a6c2a3962a4ea2f0ad92ee8743ec0",
+    "AF-FCL": "b41ddcb33b83a0a2b62653eec0fbc061f312cc47",
+    "NCCL": "ee14255c0b4ddc9af60c0c1601b38c43cba0296e"
+  },
+  "sources": {
+    "supplementary_data/recent_external_fcl_20261114_v1/OBJECTIVE_AUDIT.json": "95046eb25585853dbbdea2bcd68b8a22bf378dcc231629d35d8e84555aeffc1e",
+    "supplementary_data/recent_external_fcl_20261114_v1/FINAL_VERIFICATION.json": "04d2b617afceb5f90847e88be44681a869dbcedd2e9d3d42b07d4f9e3797eadf",
+    "supplementary_data/recent_external_fcl_20261114_v1/SELECTION_AUDIT.json": "ea35c184b4ab2fa5269488d18d7d38dbfca38060404b647078f7fcaf5d6ba74e",
+    "supplementary_data/recent_external_fcl_20261114_v1/FLOW_AGGREGATION_REGRESSION.json": "f5272c72234554bfdcb5ad06d34b80d64f47bef9dac030d376ad17932b0bb755",
+    "supplementary_data/recent_external_fcl_20261114_v1/ADAPTATION_AUDIT.md": "5a2a217322eb23970bf557769e1219e30e61dc8a670d341f808f0a9ee3e68206",
+    "supplementary_data/recent_external_fcl_20261114_v1/code/run_recent_external.py": "fd19bc43966251baff95f9c5e1cc43dd79c1f87237b17839cb94dfcea1ff391b",
+    "supplementary_data/recent_external_fcl_20261114_v1/official/FedCLASS/models/ours.py": "3119465825e1c6e25de8a7357251e6aa98fbd8463c6ed5a9d38245dee41c7433",
+    "supplementary_data/recent_external_fcl_20261114_v1/official/FedCLASS/utils/inc_net.py": "2c6b2c9c8acdd734014013150434619a6618475a4f93a140961c359073b39d92",
+    "supplementary_data/recent_external_fcl_20261114_v1/official/AF-FCL/FLAlgorithms/PreciseFCLNet/model.py": "41ec9e8c880888913c8f2df1b5c45930340066fbd6d750000919e6d6d844ea73",
+    "supplementary_data/recent_external_fcl_20261114_v1/official/AF-FCL/FLAlgorithms/users/userPreciseFCL.py": "968747233b9a7b9fc955f62ebc9ab3cc5662e954cfdd7f3b46365dede1fa3d92",
+    "supplementary_data/recent_external_fcl_20261114_v1/official/AF-FCL/FLAlgorithms/users/userbase.py": "9110260bfac2734a86bd5743ace009bf36413a7886eb24fc610cfb9007ac7e48"
+  }
+}

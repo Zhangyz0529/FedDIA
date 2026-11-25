@@ -1,4 +1,0 @@
-id,arm,role,seed,schedule,kd_lambda,val_task_average_f1_percent,model_duplex_bytes,auxiliary_bytes,total_duplex_bytes,feasible
-LWF_lambda0.1_5-5-5_s42,LWF,lambda_candidate,42,"[5, 5, 5]",0.1,59.5156,24544852,150,24545002,True
-LWF_lambda0.5_5-5-5_s42,LWF,lambda_candidate,42,"[5, 5, 5]",0.5,37.6813,24544860,150,24545010,True
-LWF_lambda1.0_5-5-5_s42,LWF,lambda_candidate,42,"[5, 5, 5]",1.0,37.2,24544836,150,24544986,True

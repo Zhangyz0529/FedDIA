@@ -1,2 +1,0 @@
-\[\mathcal L=\mathcal L_{\rm CE}^{\rm margin}+\lambda T^2\frac1B\sum_{i=1}^B\sum_{k\in O_t}q_{ik}\log(q_{ik}/p_{ik}),\quad q_i=\operatorname{softmax}(z^{\rm teacher}_{i,O_t}/T),\quad p_i=\operatorname{softmax}(z^{\rm student}_{i,O_t}/T).\]
-The frozen teacher is the preceding stage's final global model. Both distillation logits are margin-free and evaluated on current-task inputs. $O_2=\{0,1,2,4\}$, $O_3=\{0,1,2,3,4\}$; $T=2$, selected $\lambda=0.1$. KL is summed over old classes and averaged over the minibatch. No historical inputs are replayed.
